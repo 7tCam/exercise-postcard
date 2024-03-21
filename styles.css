@@ -1,0 +1,97 @@
+body {
+	background: black;
+}
+
+/* este codigo de abajo se debe de eliminar al final 
+de codificar*/
+
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+*/
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header h1 {
+	padding: 18px 0 0 10px;
+	width: 330px;
+	margin: 0;
+	font-size: 26px;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	padding: 10px 3px 0 0;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left {
+	padding: 8px 5px 5px 10px !important;
+}
+
+.body-right {
+	padding-right: 20px !important;
+}
+
+.input {
+	border: none;
+	border-bottom: 1px solid grey !important;
+	color: darkcyan !important;
+	margin: 5px 0 5px 0;
+	width: 160px !important;
+}
+
+.input::placeholder {
+	color: cornflowerblue;
+}
+
+p {
+	font-size: 15.5px;
+}
+
+.postcard-footer {
+	text-align: center;
+	padding-top: 10px !important;
+}
+
+button {
+	background-color: rgb(207, 205, 205);
+	font-size: 16px;
+	margin: 0;
+	padding: 1px;
+	border: none;
+	border-bottom: 2px solid grey;
+	cursor: pointer;
+	width: 130px;
+	height: 25px;
+}
+
+button:hover {
+	color: dodgerblue;
+}
+
+button:active {
+	color: indigo;
+}
+
+* {
+	font-family: "Handlee";
+	font-weight: bold;
+}
